@@ -1,9 +1,4 @@
-/*
-  Theme Name: BizPage
-  Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -1605,4 +1600,128 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .my-float {
   margin-top: 16px;
+}
+
+
+.about-col p {
+  font-size: 16px;
+}
+
+/* Responsive styling */
+.card {
+  transition: transform 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+      height: 180px;
+  }
+  
+  .card-body {
+      padding: 1rem;
+  }
+
+  .card-title {
+      font-size: 1.2rem;
+  }
+
+  .card-text {
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+      padding: 15px 10px;
+  }
+  
+  .card-img-top {
+      height: 160px;
+  }
+
+  .card-body {
+      padding: 0.8rem;
+  }
+}
+
+/* Hover effect pada card */
+.card {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Styling untuk link judul */
+.card-title a {
+  transition: opacity 0.3s ease;
+}
+
+.card-title a:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+/* Styling untuk tombol baca artikel */
+.btn-link {
+  transition: transform 0.3s ease;
+}
+
+.btn-link:hover {
+  transform: translateX(5px);
+  text-decoration: none;
+}
+
+/* Hover effect pada gambar */
+.card-img-top {
+  transition: opacity 0.3s ease;
+}
+
+.card-img-top:hover {
+  opacity: 0.9;
+}
+
+.kegiatan-section {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), 
+              url(../img/call-to-action-bg.jpg) fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+/* Styling untuk header section di background gelap */
+.kegiatan-section .section-header h3::before {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.kegiatan-section .section-header h3::after {
+  background: #18d26e;
+}
+
+/* Menyesuaikan warna pagination untuk background gelap */
+.kegiatan-section .pagination-wrapper .page-numbers {
+  color: white;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.kegiatan-section .pagination-wrapper .page-numbers.current {
+  background-color: #18d26e;
+  border-color: #18d26e;
+}
+
+.kegiatan-section .pagination-wrapper .page-numbers:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
