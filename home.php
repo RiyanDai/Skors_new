@@ -9,7 +9,7 @@
       <ol class="carousel-indicators"></ol>
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-          <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/1.jpg'); ?>"
+          <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/1.png'); ?>"
               alt=""></div>
           <div class="carousel-container">
             <div class="carousel-content">
@@ -127,7 +127,7 @@
   <section id="about">
     <div class="container">
       <header class="section-header">
-        <h3>About Us</h3>
+        <h3>Perjalanan Kami</h3>
         <p>Perjalanan kami dimulai pada tahun 2020 dengan lahirnya Skor, sebuah platform manajemen performa bisnis
           berbasis web yang dirancang untuk membantu korporasi dan pelaku UMKM, seperti start-up, kedai kopi, usaha
           katering, dan lainnya, dalam mengelola bisnis mereka secara efektif. Dengan fitur-fitur yang mencakup
@@ -151,24 +151,22 @@
         <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
           <div class="about-col">
             <div class="img">
-              <img src="<?php echo get_theme_file_uri('/img/about-plan.jpg'); ?>" alt="" class="img-fluid">
+              <img src="<?php echo get_theme_file_uri('/img/about-skors2.png'); ?>" alt="" class="img-fluid">
               <div class="icon"><i class="ion-ios-list-outline"></i></div>
             </div>
-            <h2 class="title"><a href="#">Our Plan</a></h2>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam,
-              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            <h2 class="title"><a href="#">Tingkatkan Keuntungan</a></h2>
+            <p>Tingkatkan keuntungan bisnis anda, dengan efisien bersama SKOR</p>
           </div>
         </div>
 
         <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
           <div class="about-col">
             <div class="img">
-              <img src="<?php echo get_theme_file_uri('/img/about-vision.jpg'); ?>" alt="" class="img-fluid">
+              <img src="<?php echo get_theme_file_uri('/img/about-skors3.png'); ?>" alt="" class="img-fluid">
               <div class="icon"><i class="ion-ios-eye-outline"></i></div>
             </div>
-            <h2 class="title"><a href="#">Our Vision</a></h2>
-            <p>Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione
-              voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+            <h2 class="title"><a href="#">Ukur Performa Maksimal</a></h2>
+            <p>Ukur performa, raih kesempurnaan! Optimalkan strategi anda dengan SKOR</p>
           </div>
         </div>
       </div>
@@ -316,7 +314,7 @@
       </div>
 
       <div class="facts-img">
-        <img src="<?php echo get_theme_file_uri('/img/facts-img.png'); ?>" alt="" class="img-fluid">
+        <img src="<?php echo get_theme_file_uri('/img/demo.png'); ?>" alt="" class="img-fluid">
       </div>
     </div>
   </section>
@@ -370,7 +368,7 @@
   <section id="clients" class="wow fadeInUp">
     <div class="container">
       <header class="section-header">
-        <h3>Klient Kami</h3>
+        <h3>Klien Kami</h3>
       </header>
 
       <div class="owl-carousel clients-carousel">
@@ -381,7 +379,6 @@
         <img src="<?php echo get_theme_file_uri('/img/clients/client-5.png'); ?>" alt="">
         <img src="<?php echo get_theme_file_uri('/img/clients/client-6.png'); ?>" alt="">
         <img src="<?php echo get_theme_file_uri('/img/clients/client-7.png'); ?>" alt="">
-        <img src="<?php echo get_theme_file_uri('/img/clients/client-8.png'); ?>" alt="">
       </div>
     </div>
   </section>
@@ -398,18 +395,37 @@
       <div class="owl-carousel testimonials-carousel">
         <div class="testimonial-item">
           <img src="<?php echo get_theme_file_uri('/img/testimonial-1.jpg'); ?>" class="testimonial-img" alt="">
-          <h3>Saul Goodman</h3>
-          <h4>Ceo &amp; Founder</h4>
+          <h3>Teresa Diora</h3>
+          <h4>PT. Satu Dua</h4>
           <p>
             <img src="<?php echo get_theme_file_uri('/img/quote-sign-left.png'); ?>" class="quote-sign-left" alt="">
-            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam,
-            ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+            Saya sangat puas dengan layanan pengoptimalan bisnis yang diberikan. Pendekatannya sangat profesional, dan hasilnya terlihat nyata.
             <img src="<?php echo get_theme_file_uri('/img/quote-sign-right.png'); ?>" class="quote-sign-right" alt="">
           </p>
         </div>
 
         <!-- Tambahkan testimonial items lainnya -->
+        <div class="testimonial-item">
+          <img src="<?php echo get_theme_file_uri('/img/testimonial-2.jpg'); ?>" class="testimonial-img" alt="">
+          <h3>Putrianne</h3>
+          <h4>PT. Satu Dua</h4>
+          <p>
+            <img src="<?php echo get_theme_file_uri('/img/quote-sign-left.png'); ?>" class="quote-sign-left" alt="">
+            Saya sangat puas dengan jasa pengoptimalan bisnis yang diberikan. Sebelum menggunakan jasa ini, toko bunga saya hanya memiliki sedikit pelanggan, dan sulit untuk bersaing dengan toko lain. Namun, setelah menggunakan layanan ini, penjualan meningkat hingga 40% dalam 3 bulan pertama.
+            <img src="<?php echo get_theme_file_uri('/img/quote-sign-right.png'); ?>" class="quote-sign-right" alt="">
+          </p>
+        </div>
 
+        <div class="testimonial-item">
+          <img src="<?php echo get_theme_file_uri('/img/testimonial-3.jpg'); ?>" class="testimonial-img" alt="">
+          <h3>Rasya Diandra</h3>
+          <h4>PT. Satu Dua</h4>
+          <p>
+            <img src="<?php echo get_theme_file_uri('/img/quote-sign-left.png'); ?>" class="quote-sign-left" alt="">
+            "Layanan pengoptimalan bisnis yang luar biasa!" Kami sangat puas dengan hasil yang diberikan oleh tim ini. Sejak menggunakan jasa mereka, pendapatan bisnis kami meningkat signifikan, dan proses operasional menjadi jauh lebih efisien. Mereka tidak hanya membantu mengidentifikasi masalah, tetapi juga memberikan solusi konkret yang dapat langsung kami terapkan.
+            <img src="<?php echo get_theme_file_uri('/img/quote-sign-right.png'); ?>" class="quote-sign-right" alt="">
+          </p>
+        </div>
       </div>
     </div>
   </section>
@@ -471,8 +487,8 @@
   <section id="contact" class="section-bg wow fadeInUp">
     <div class="container">
       <div class="section-header">
-        <h3>Contact Us</h3>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        <h3>Berlangganan Artikel Harian Kami</h3>
+        <p>Jadilah Terkini Bersama Kami</p>
       </div>
 
       <div class="row contact-info">
@@ -507,27 +523,27 @@
         <form action="" method="post" role="form" class="contactForm">
           <div class="form-row">
             <div class="form-group col-md-6">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
+              <input type="text" name="name" class="form-control" id="name" placeholder="Namamu" data-rule="minlen:4"
                 data-msg="Please enter at least 4 chars" />
               <div class="validation"></div>
             </div>
             <div class="form-group col-md-6">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+              <input type="email" class="form-control" name="email" id="email" placeholder="Emailmu"
                 data-rule="email" data-msg="Please enter a valid email" />
               <div class="validation"></div>
             </div>
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subjek"
               data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
             <div class="validation"></div>
           </div>
           <div class="form-group">
             <textarea class="form-control" name="message" rows="5" data-rule="required"
-              data-msg="Please write something for us" placeholder="Message"></textarea>
+              data-msg="Please write something for us" placeholder="Pesan"></textarea>
             <div class="validation"></div>
           </div>
-          <div class="text-center"><button type="submit">Send Message</button></div>
+          <div class="text-center"><button type="submit">Berlanggan</button></div>
         </form>
       </div>
     </div>

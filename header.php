@@ -18,7 +18,8 @@
       <div id="logo" class="pull-left">
         <h1><a href="#intro" class="scrollto">SKORS</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+        <!-- <a href="#intro"></a> -->
+        <!-- <img src="<?php echo get_theme_file_uri('/img/Logo-SKOR'); ?>" alt="" title="" /> -->
       </div>
 
       <nav id="nav-menu-container">

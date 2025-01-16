@@ -28,10 +28,9 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
+              Jalan kuburan lama<br>
+              Depok, Jawa Barat<br>
+              <strong>Nomer Handphone:</strong> 08123456789<br>
               <strong>Email:</strong> info@example.com<br>
             </p>
 
@@ -46,8 +45,8 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <h4>Artikel Harian Kami</h4>
+            <p>Berlangganan Artikel Harian Kami</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
