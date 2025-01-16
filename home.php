@@ -121,14 +121,14 @@
     </div>
   </section>
 
-  <!--==========================
+<!--==========================
     About Us Section
   ============================-->
   <section id="about">
     <div class="container">
       <header class="section-header">
-        <h3>Perjalanan Kami</h3>
-        <p>Perjalanan kami dimulai pada tahun 2020 dengan lahirnya Skor, sebuah platform manajemen performa bisnis
+        <h3>About Us</h3>
+        <p>"Perjalanan kami dimulai pada tahun 2020 dengan lahirnya Skor, sebuah platform manajemen performa bisnis
           berbasis web yang dirancang untuk membantu korporasi dan pelaku UMKM, seperti start-up, kedai kopi, usaha
           katering, dan lainnya, dalam mengelola bisnis mereka secara efektif. Dengan fitur-fitur yang mencakup
           pengelolaan sumber daya manusia, keuangan, dan strategi bisnis, kami hadir sebagai mitra terpercaya yang
@@ -140,33 +140,34 @@
         <div class="col-md-4 wow fadeInUp">
           <div class="about-col">
             <div class="img">
-              <img src="<?php echo get_theme_file_uri('/img/about-skors.png'); ?>" alt="" class="img-fluid">
+              <img src="<?php echo get_theme_file_uri('/img/about-mission.jpg'); ?>" alt="" class="img-fluid">
               <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
             </div>
-            <h2 class="title"><a href="#">Analisis Kebutuhan</a></h2>
-            <p style="font-size: 16px;">Kenali kebutuhan tim anda, konsultasikan bersama SKOR</p>
+            <h2 class="title"><a href="#">Misi Kami</a></h2>
+            <p>Memberdayakan bisnis untuk berkembang, mengatasi tantangan, dan mencapai potensi terbaiknya,
+            dengan menghadirkan solusi yang relevan dalam perjalanan usaha.</p>
           </div>
         </div>
 
         <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
           <div class="about-col">
             <div class="img">
-              <img src="<?php echo get_theme_file_uri('/img/about-skors2.png'); ?>" alt="" class="img-fluid">
+              <img src="<?php echo get_theme_file_uri('/img/about-plan.jpg'); ?>" alt="" class="img-fluid">
               <div class="icon"><i class="ion-ios-list-outline"></i></div>
             </div>
-            <h2 class="title"><a href="#">Tingkatkan Keuntungan</a></h2>
-            <p>Tingkatkan keuntungan bisnis anda, dengan efisien bersama SKOR</p>
+            <h2 class="title"><a href="#">Rencana Kami</a></h2>
+            <p>Menghadirkan solusi inovatif yang mencakup pengelolaan SDM, keuangan, dan strategi bisnis untuk membantu UMKM dan korporasi meraih kesuksesan.</p>
           </div>
         </div>
 
         <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
           <div class="about-col">
             <div class="img">
-              <img src="<?php echo get_theme_file_uri('/img/about-skors3.png'); ?>" alt="" class="img-fluid">
+              <img src="<?php echo get_theme_file_uri('/img/about-vision.jpg'); ?>" alt="" class="img-fluid">
               <div class="icon"><i class="ion-ios-eye-outline"></i></div>
             </div>
-            <h2 class="title"><a href="#">Ukur Performa Maksimal</a></h2>
-            <p>Ukur performa, raih kesempurnaan! Optimalkan strategi anda dengan SKOR</p>
+            <h2 class="title"><a href="#">Visi Kami</a></h2>
+            <p>Menjadi mitra terpercaya dalam mendukung pertumbuhan bisnis global, menciptakan peluang, dan memberikan dampak positif bagi setiap pelaku usaha.</p>
           </div>
         </div>
       </div>
