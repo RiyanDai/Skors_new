@@ -596,17 +596,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #featured-services {
-  background: #000;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), 
+              url(../img/call-to-action-bg.jpg) fixed center center;
+  background-size: cover;
+  padding: 60px 0;
 }
 
 #featured-services .box {
   padding: 30px 20px;
 }
 
-#featured-services .box-bg {
-  background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
-}
-
+ 
 #featured-services i {
   color: #00B9CB;
   font-size: 48px;
@@ -781,39 +781,40 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), 
+              url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
 
 #call-to-action h3 {
   color: #fff;
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 #call-to-action p {
   color: #fff;
+  margin-bottom: 30px;
+  font-size: 18px;
 }
 
 #call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 28px;
+  background: #00E3A5;
+  padding: 8px 30px;
   border-radius: 25px;
-  transition: 0.5s;
-  margin-top: 10px;
-  border: 2px solid #fff;
   color: #fff;
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
 }
 
 #call-to-action .cta-btn:hover {
-  background: #00B9CB;
-  border: 2px solid #00B9CB;
+  background: #00c591;
+  transform: translateY(-2px);
 }
 
 /* Call To Action Section
@@ -1551,6 +1552,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 768px) {
+  #call-to-action .row {
+    text-align: center;
+  }
+  
+  #call-to-action .col-lg-6:first-child {
+    margin-bottom: 30px;
+  }
   .back-to-top {
     bottom: 15px;
   }
@@ -1725,3 +1733,5 @@ body.mobile-nav-active #mobile-nav-toggle {
 .kegiatan-section .pagination-wrapper .page-numbers:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+
