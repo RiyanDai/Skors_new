@@ -99,23 +99,20 @@
       <div class="row">
         <div class="col-lg-4 box">
           <i class="ion-ios-bookmarks-outline"></i>
-          <h4 class="title"><a href="">Lorem Ipsum Delino</a></h4>
-          <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-            occaecati cupiditate non provident</p>
+          <h4 class="title"><a href="">Analisis Kebutuhan</a></h4>
+          <p class="description">Kenali kebutuhan tim anda, konsultasikan bersama SKOR</p>
         </div>
 
         <div class="col-lg-4 box box-bg">
           <i class="ion-ios-stopwatch-outline"></i>
-          <h4 class="title"><a href="">Dolor Sitema</a></h4>
-          <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat tarad limino ata</p>
+          <h4 class="title"><a href="">Tingkatkan Keuntungan</a></h4>
+          <p class="description">Tingkatkan keuntungan bisnis anda, dengan efisien bersama SKOR</p>
         </div>
 
         <div class="col-lg-4 box">
-          <i class="ion-ios-heart-outline"></i>
-          <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-          <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur</p>
+          <i class="ion-stats-bars"></i>
+          <h4 class="title"><a href="">Ukur Performa Maksimal</a></h4>
+          <p class="description">Ukur performa, raih kesempurnaan! Optimalkan strategi anda dengan SKOR</p>
         </div>
       </div>
     </div>
@@ -128,7 +125,7 @@
     <div class="container">
       <header class="section-header">
         <h3>About Us</h3>
-        <p>Perjalanan kami dimulai pada tahun 2020 dengan lahirnya Skor, sebuah platform manajemen performa bisnis
+        <p>"Perjalanan kami dimulai pada tahun 2020 dengan lahirnya Skor, sebuah platform manajemen performa bisnis
           berbasis web yang dirancang untuk membantu korporasi dan pelaku UMKM, seperti start-up, kedai kopi, usaha
           katering, dan lainnya, dalam mengelola bisnis mereka secara efektif. Dengan fitur-fitur yang mencakup
           pengelolaan sumber daya manusia, keuangan, dan strategi bisnis, kami hadir sebagai mitra terpercaya yang
@@ -140,11 +137,12 @@
         <div class="col-md-4 wow fadeInUp">
           <div class="about-col">
             <div class="img">
-              <img src="<?php echo get_theme_file_uri('/img/about-skors.png'); ?>" alt="" class="img-fluid">
+              <img src="<?php echo get_theme_file_uri('/img/about-mission.jpg'); ?>" alt="" class="img-fluid">
               <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
             </div>
-            <h2 class="title"><a href="#">Analisis Kebutuhan</a></h2>
-            <p style="font-size: 16px;">Kenali kebutuhan tim anda, konsultasikan bersama SKOR</p>
+            <h2 class="title"><a href="#">Misi Kami</a></h2>
+            <p>Memberdayakan bisnis untuk berkembang, mengatasi tantangan, dan mencapai potensi terbaiknya,
+            dengan menghadirkan solusi yang relevan dalam perjalanan usaha.</p>
           </div>
         </div>
 
@@ -154,9 +152,8 @@
               <img src="<?php echo get_theme_file_uri('/img/about-plan.jpg'); ?>" alt="" class="img-fluid">
               <div class="icon"><i class="ion-ios-list-outline"></i></div>
             </div>
-            <h2 class="title"><a href="#">Our Plan</a></h2>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam,
-              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            <h2 class="title"><a href="#">Rencana Kami</a></h2>
+            <p>Menghadirkan solusi inovatif yang mencakup pengelolaan SDM, keuangan, dan strategi bisnis untuk membantu UMKM dan korporasi meraih kesuksesan.</p>
           </div>
         </div>
 
@@ -166,9 +163,8 @@
               <img src="<?php echo get_theme_file_uri('/img/about-vision.jpg'); ?>" alt="" class="img-fluid">
               <div class="icon"><i class="ion-ios-eye-outline"></i></div>
             </div>
-            <h2 class="title"><a href="#">Our Vision</a></h2>
-            <p>Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione
-              voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+            <h2 class="title"><a href="#">Visi Kami</a></h2>
+            <p>Menjadi mitra terpercaya dalam mendukung pertumbuhan bisnis global, menciptakan peluang, dan memberikan dampak positif bagi setiap pelaku usaha.</p>
           </div>
         </div>
       </div>
@@ -232,12 +228,20 @@
     Call To Action Section
   ============================-->
   <section id="call-to-action" class="wow fadeIn">
-    <div class="container text-center">
-      <h3>Call To Action</h3>
-      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <a class="cta-btn" href="#">Call To Action</a>
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Kolom Teks -->
+        <div class="col-lg-6 text-left"> <!-- Ubah text-center menjadi text-left -->
+          <h3>Eksplorasi Web Aplikasi Kami</h3>
+          <p>Rasakan pengalaman mengelola tim bisnis dengan mudah, cepat dan aman</p>
+          <a class="cta-btn" href="#">Coba Demo</a>
+        </div>
+        
+        <!-- Kolom Gambar -->
+        <div class="col-lg-6">
+          <img src="<?php echo get_theme_file_uri('/img/Hp.png'); ?>" alt="Mobile App Demo" class="img-fluid">
+        </div>
+      </div>
     </div>
   </section>
 
