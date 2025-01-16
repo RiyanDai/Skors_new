@@ -370,7 +370,7 @@
   <section id="clients" class="wow fadeInUp">
     <div class="container">
       <header class="section-header">
-        <h3>Our Clients</h3>
+        <h3>Klient Kami</h3>
       </header>
 
       <div class="owl-carousel clients-carousel">
@@ -392,7 +392,7 @@
   <section id="testimonials" class="section-bg wow fadeInUp">
     <div class="container">
       <header class="section-header">
-        <h3>Testimonials</h3>
+        <h3>Testimoni</h3>
       </header>
 
       <div class="owl-carousel testimonials-carousel">
@@ -420,8 +420,8 @@
   <section id="team">
     <div class="container">
       <div class="section-header wow fadeInUp">
-        <h3>Team</h3>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        <h3>Tim Kami</h3>
+        <p></p>
       </div>
 
       <div class="row">
@@ -430,8 +430,8 @@
             <img src="<?php echo get_theme_file_uri('/img/team-1.jpg'); ?>" class="img-fluid" alt="">
             <div class="member-info">
               <div class="member-info-content">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <h4>Priestian Octafian</h4>
+                <span>Chief Executive Officer (CEO)</span>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
@@ -444,7 +444,23 @@
         </div>
 
         <!-- Tambahkan team members lainnya -->
-
+        <div class="col-lg-3 col-md-6 wow fadeInUp">
+          <div class="member">
+            <img src="<?php echo get_theme_file_uri('/img/team-2.jpg'); ?>" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Fithrah Noviyanti Fitri</h4>
+                <span>Chief Financial Officer (CFO)</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -463,16 +479,16 @@
         <div class="col-md-4">
           <div class="contact-address">
             <i class="ion-ios-location-outline"></i>
-            <h3>Address</h3>
-            <address>A108 Adam Street, NY 535022, USA</address>
+            <h3>Kunjungi Kami</h3>
+            <address>Jalan kuburan lama, Depok, Jawa Barat</address>
           </div>
         </div>
 
         <div class="col-md-4">
           <div class="contact-phone">
             <i class="ion-ios-telephone-outline"></i>
-            <h3>Phone Number</h3>
-            <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+            <h3>Kontak Kami</h3>
+            <p><a href="https://api.whatsapp.com/send?phone=6282291158733">08123456789</a></p>
           </div>
         </div>
 
