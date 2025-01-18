@@ -137,7 +137,7 @@
         <div class="col-md-4 wow fadeInUp">
           <div class="about-col">
             <div class="img">
-              <img src="<?php echo get_theme_file_uri('/img/about-mission.jpg'); ?>" alt="" class="img-fluid">
+              <img src="<?php echo get_theme_file_uri('/img/about-skors.png'); ?>" alt="" class="img-fluid">
               <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
             </div>
             <h2 class="title"><a href="#">Misi Kami</a></h2>
@@ -149,7 +149,7 @@
         <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
           <div class="about-col">
             <div class="img">
-              <img src="<?php echo get_theme_file_uri('/img/about-plan.jpg'); ?>" alt="" class="img-fluid">
+              <img src="<?php echo get_theme_file_uri('/img/about-skors2.png'); ?>" alt="" class="img-fluid">
               <div class="icon"><i class="ion-ios-list-outline"></i></div>
             </div>
             <h2 class="title"><a href="#">Rencana Kami</a></h2>
@@ -160,7 +160,7 @@
         <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
           <div class="about-col">
             <div class="img">
-              <img src="<?php echo get_theme_file_uri('/img/about-vision.jpg'); ?>" alt="" class="img-fluid">
+              <img src="<?php echo get_theme_file_uri('/img/about-skors3.png'); ?>" alt="" class="img-fluid">
               <div class="icon"><i class="ion-ios-eye-outline"></i></div>
             </div>
             <h2 class="title"><a href="#">Visi Kami</a></h2>
@@ -449,7 +449,7 @@
       <div class="row">
         <div class="col-lg-3 col-md-6 wow fadeInUp">
           <div class="member">
-            <img src="<?php echo get_theme_file_uri('/img/team-1.jpg'); ?>" class="img-fluid" alt="">
+            <img src="<?php echo get_theme_file_uri('/img/team-1.png'); ?>" class="img-fluid" alt="">
             <div class="member-info">
               <div class="member-info-content">
                 <h4>Priestian Octafian</h4>
@@ -473,6 +473,24 @@
               <div class="member-info-content">
                 <h4>Fithrah Noviyanti Fitri</h4>
                 <span>Chief Financial Officer (CFO)</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 wow fadeInUp">
+          <div class="member">
+            <img src="<?php echo get_theme_file_uri('/img/team-3.png'); ?>" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Nur Eka Yadien</h4>
+                <span>Chief Business Officer (CBO)</span>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
