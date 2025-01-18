@@ -36,10 +36,10 @@
 
             <div class="social-links">
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.facebook.com/ArthanesiaSolusi/?_rdc=2&_rdr#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/arthanesiasolusikita?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="instagram"><i class="fa fa-instagram"></i></a>
               <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/company/arthanesia-solusi-kita/" class="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
 
           </div>

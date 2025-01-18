@@ -8,81 +8,92 @@
     <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
       <ol class="carousel-indicators"></ol>
       <div class="carousel-inner" role="listbox">
-      <div class="carousel-inner" role="listbox">
-  <!-- Slide 1 - tetap sama -->
-  <div class="carousel-item active">
-    <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/1.jpg'); ?>" alt=""></div>
-    <div class="carousel-container">
-      <div class="carousel-content">
-        <h2>PT. ARTHENESIA SOLUSI KITA</h2>
-        <p>Perusahaan inovatif yang berfokus pada kemajuan teknologi untuk mendukung pengembangan dan pengelolaan
-          bisnis secara cerdas dan efisien.</p>
-        <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide 1 - tetap sama -->
+          <div class="carousel-item active">
+            <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/1.jpg'); ?>"
+                alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>PT. ARTHENESIA SOLUSI KITA</h2>
+                <p>Perusahaan inovatif yang berfokus pada kemajuan teknologi untuk mendukung pengembangan dan
+                  pengelolaan
+                  bisnis secara cerdas dan efisien.</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 - tetap sama -->
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/2.jpg'); ?>"
+                alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Kelola. Pantau. Raih Kesuksesan</h2>
+                <p>Optimalkan potensi bisnis Anda bersama kami! Dengan strategi digital yang tepat, kami siap membantu
+                  mencapai target pasar yang lebih luas.
+                  Wujudkan kesuksesan bisnis Anda sekarang!</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 - updated -->
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/3.jpg'); ?>"
+                alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Platform Manajemen Bisnis Terpadu</h2>
+                <p>Lahir pada tahun 2020, SKOR hadir sebagai platform manajemen performa bisnis berbasis web yang
+                  dirancang khusus untuk membantu korporasi dan UMKM dalam mengelola bisnis mereka secara efektif.</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 - updated -->
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/4.jpg'); ?>"
+                alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Solusi Lengkap Untuk Bisnis Anda</h2>
+                <p>Dengan fitur-fitur yang mencakup pengelolaan sumber daya manusia, keuangan, dan strategi bisnis, kami
+                  hadir sebagai mitra terpercaya yang berkomitmen untuk mendukung pertumbuhan dan kesuksesan usaha Anda.
+                </p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 5 - updated -->
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/5.jpg'); ?>"
+                alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Berkembang Bersama SKOR</h2>
+                <p>Hingga hari ini, SKOR terus berkembang dengan misi untuk memberdayakan bisnis dalam menghadapi
+                  tantangan dan mencapai potensi terbaiknya. Mari wujudkan kesuksesan bisnis Anda bersama kami!</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
-  </div>
-
-  <!-- Slide 2 - tetap sama -->
-  <div class="carousel-item">
-    <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/2.jpg'); ?>" alt=""></div>
-    <div class="carousel-container">
-      <div class="carousel-content">
-        <h2>Kelola. Pantau. Raih Kesuksesan</h2>
-        <p>Optimalkan potensi bisnis Anda bersama kami! Dengan strategi digital yang tepat, kami siap membantu mencapai target pasar yang lebih luas.
-        Wujudkan kesuksesan bisnis Anda sekarang!</p>
-        <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Slide 3 - updated -->
-  <div class="carousel-item">
-    <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/3.jpg'); ?>" alt=""></div>
-    <div class="carousel-container">
-      <div class="carousel-content">
-        <h2>Platform Manajemen Bisnis Terpadu</h2>
-        <p>Lahir pada tahun 2020, SKOR hadir sebagai platform manajemen performa bisnis berbasis web yang dirancang khusus untuk membantu korporasi dan UMKM dalam mengelola bisnis mereka secara efektif.</p>
-        <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Slide 4 - updated -->
-  <div class="carousel-item">
-    <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/4.jpg'); ?>" alt=""></div>
-    <div class="carousel-container">
-      <div class="carousel-content">
-        <h2>Solusi Lengkap Untuk Bisnis Anda</h2>
-        <p>Dengan fitur-fitur yang mencakup pengelolaan sumber daya manusia, keuangan, dan strategi bisnis, kami hadir sebagai mitra terpercaya yang berkomitmen untuk mendukung pertumbuhan dan kesuksesan usaha Anda.</p>
-        <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Slide 5 - updated -->
-  <div class="carousel-item">
-    <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/5.jpg'); ?>" alt=""></div>
-    <div class="carousel-container">
-      <div class="carousel-content">
-        <h2>Berkembang Bersama SKOR</h2>
-        <p>Hingga hari ini, SKOR terus berkembang dengan misi untuk memberdayakan bisnis dalam menghadapi tantangan dan mencapai potensi terbaiknya. Mari wujudkan kesuksesan bisnis Anda bersama kami!</p>
-        <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-      <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-
-      <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </div>
 </section>
 
 <main id="main">
@@ -113,7 +124,7 @@
     </div>
   </section>
 
-<!--==========================
+  <!--==========================
     About Us Section
   ============================-->
   <section id="about">
@@ -137,7 +148,7 @@
             </div>
             <h2 class="title"><a href="#">Misi Kami</a></h2>
             <p>Memberdayakan bisnis untuk berkembang, mengatasi tantangan, dan mencapai potensi terbaiknya,
-            dengan menghadirkan solusi yang relevan dalam perjalanan usaha.</p>
+              dengan menghadirkan solusi yang relevan dalam perjalanan usaha.</p>
           </div>
         </div>
 
@@ -148,7 +159,8 @@
               <div class="icon"><i class="ion-ios-list-outline"></i></div>
             </div>
             <h2 class="title"><a href="#">Rencana Kami</a></h2>
-            <p>Menghadirkan solusi inovatif yang mencakup pengelolaan SDM, keuangan, dan strategi bisnis untuk membantu UMKM dan korporasi meraih kesuksesan.</p>
+            <p>Menghadirkan solusi inovatif yang mencakup pengelolaan SDM, keuangan, dan strategi bisnis untuk membantu
+              UMKM dan korporasi meraih kesuksesan.</p>
           </div>
         </div>
 
@@ -159,7 +171,8 @@
               <div class="icon"><i class="ion-ios-eye-outline"></i></div>
             </div>
             <h2 class="title"><a href="#">Visi Kami</a></h2>
-            <p>Menjadi mitra terpercaya dalam mendukung pertumbuhan bisnis global, menciptakan peluang, dan memberikan dampak positif bagi setiap pelaku usaha.</p>
+            <p>Menjadi mitra terpercaya dalam mendukung pertumbuhan bisnis global, menciptakan peluang, dan memberikan
+              dampak positif bagi setiap pelaku usaha.</p>
           </div>
         </div>
       </div>
@@ -172,52 +185,63 @@
   <section id="services">
     <div class="container">
       <header class="section-header wow fadeInUp">
-        <h3>Services</h3>
-        <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad
-          pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.
-        </p>
+        <h3>Layanan Kami</h3>
+        <p>Kami menyediakan berbagai layanan yang dirancang untuk memenuhi kebutuhan bisnis Anda, meningkatkan
+          efisiensi, dan mencapai tujuan strategis perusahaan.</p>
       </header>
 
       <div class="row">
+        <!-- Pengelolaan KPI yang Efektif -->
         <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
           <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-          <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-          <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-            occaecati cupiditate non provident</p>
+          <h4 class="title"><a href="">Pengelolaan KPI yang Efektif</a></h4>
+          <p class="description">Menetapkan dan melacak Key Performance Indicators (KPI) untuk tim dan individu, serta
+            menyediakan laporan analitik mendalam untuk pengambilan keputusan yang lebih baik.</p>
         </div>
+
+        <!-- Pemantauan Data dan Catatan -->
         <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
           <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-          <h4 class="title"><a href="">Dolor Sitema</a></h4>
-          <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat tarad limino ata</p>
+          <h4 class="title"><a href="">Pemantauan Data dan Catatan</a></h4>
+          <p class="description">Menyediakan solusi untuk mencatat data penting secara terorganisir, memungkinkan
+            pemantauan kinerja secara real-time.</p>
         </div>
+
+        <!-- Pembuatan Dokumen dan Laporan -->
         <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
           <div class="icon"><i class="ion-ios-paper-outline"></i></div>
-          <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-          <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur</p>
+          <h4 class="title"><a href="">Pembuatan Dokumen dan Laporan</a></h4>
+          <p class="description">Membantu menyusun dokumen resmi dan laporan kinerja dengan format yang mudah dipahami
+            dan informatif.</p>
         </div>
+
+        <!-- Optimalisasi Kecepatan Operasi -->
         <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
           <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-          <h4 class="title"><a href="">Magni Dolores</a></h4>
-          <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum</p>
+          <h4 class="title"><a href="">Optimalisasi Kecepatan Operasi</a></h4>
+          <p class="description">Memastikan efisiensi operasional melalui penerapan teknologi yang mempercepat proses
+            kerja dan pengambilan keputusan.</p>
         </div>
+
+        <!-- Pelacakan Produk dan Inventaris -->
         <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
           <div class="icon"><i class="ion-ios-barcode-outline"></i></div>
-          <h4 class="title"><a href="">Nemo Enim</a></h4>
-          <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-            voluptatum deleniti atque</p>
+          <h4 class="title"><a href="">Pelacakan Produk dan Inventaris</a></h4>
+          <p class="description">Solusi yang memungkinkan pelacakan produk secara akurat, termasuk manajemen inventaris
+            yang efisien untuk kebutuhan bisnis Anda.</p>
         </div>
+
+        <!-- Manajemen Tim dan Kolaborasi -->
         <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
           <div class="icon"><i class="ion-ios-people-outline"></i></div>
-          <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-          <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
-            soluta nobis est eligendi</p>
+          <h4 class="title"><a href="">Manajemen Tim dan Kolaborasi</a></h4>
+          <p class="description">Meningkatkan kolaborasi antar anggota tim dengan platform yang dirancang untuk
+            komunikasi yang lebih baik dan hasil yang maksimal.</p>
         </div>
       </div>
     </div>
   </section>
+
 
   <!--==========================
     Call To Action Section
@@ -231,7 +255,7 @@
           <p>Rasakan pengalaman mengelola tim bisnis dengan mudah, cepat dan aman</p>
           <a class="cta-btn" href="#">Coba Demo</a>
         </div>
-        
+
         <!-- Kolom Gambar -->
         <div class="col-lg-6">
           <img src="<?php echo get_theme_file_uri('/img/Hp.png'); ?>" alt="Mobile App Demo" class="img-fluid">
@@ -292,20 +316,22 @@
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
       </header>
 
-      <div class="row counters">
-        <div class="col-lg-4 col-6 text-center">
-          <span data-toggle="counter-up">10</span>
-          <p>Clients</p>
-        </div>
+      <div class="container">
+        <div class="row counters justify-content-center"> <!-- Tambahkan justify-content-center -->
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">10</span>
+            <p>Clients</p>
+          </div>
 
-        <div class="col-lg-4 col-6 text-center">
-          <span data-toggle="counter-up">10</span>
-          <p>Projects</p>
-        </div>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">1,364</span>
+            <p>Hours Of Support</p>
+          </div>
 
-        <div class="col-lg-4 col-6 text-center">
-          <span data-toggle="counter-up">1,364</span>
-          <p>Hours Of Support</p>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">18</span>
+            <p>Hard Workers</p>
+          </div>
         </div>
       </div>
 
@@ -319,41 +345,24 @@
     Portfolio Section
   ============================-->
   <section id="portfolio" class="section-bg">
-    <div class="container">
-      <header class="section-header">
-        <h3 class="section-title">Our Portfolio</h3>
-      </header>
-
-      <div class="row">
-        <div class="col-lg-12">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row portfolio-container">
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+    <div class="container"> <!-- Tambahkan container -->
+      <div class="row portfolio-container justify-content-center">
+        <div class="col-lg-12 portfolio-item wow fadeInUp text-center"> <!-- Ubah col-lg-8 menjadi col-lg-12 -->
           <div class="portfolio-wrap">
-            <figure>
-              <img src="<?php echo get_theme_file_uri('/img/portfolio/app1.jpg'); ?>" class="img-fluid" alt="">
-              <a href="<?php echo get_theme_file_uri('/img/portfolio/app1.jpg'); ?>" data-lightbox="portfolio"
-                data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-              <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-            </figure>
-
             <div class="portfolio-info">
-              <h4><a href="#">App 1</a></h4>
-              <p>App</p>
+              <h2>Semboyan Kami</h2>
+              <p>"Great goals are achieved by great teams, great teams are built by great leaders,<br>
+                and great leaders are shaped by a great mindset."</p>
+
+              <p>
+
+                Priestian Octafian 
+
+                CEO, PT. Arthenesia Solusi Kita
+              </p>
             </div>
           </div>
         </div>
-
-        <!-- Tambahkan portfolio items lainnya -->
-
       </div>
     </div>
   </section>
@@ -375,9 +384,6 @@
         <img src="<?php echo get_theme_file_uri('/img/clients/client-5.png'); ?>" alt="">
         <img src="<?php echo get_theme_file_uri('/img/clients/client-6.png'); ?>" alt="">
         <img src="<?php echo get_theme_file_uri('/img/clients/client-7.png'); ?>" alt="">
-        <img src="<?php echo get_theme_file_uri('/img/clients/client-8.png'); ?>" alt="">
-        <img src="<?php echo get_theme_file_uri('/img/clients/client-9.png'); ?>" alt="">
-        <img src="<?php echo get_theme_file_uri('/img/clients/client-10.png'); ?>" alt="">
       </div>
     </div>
   </section>
@@ -398,7 +404,8 @@
           <h4>PT. Satu Dua</h4>
           <p>
             <img src="<?php echo get_theme_file_uri('/img/quote-sign-left.png'); ?>" class="quote-sign-left" alt="">
-            Saya sangat puas dengan layanan pengoptimalan bisnis yang diberikan. Pendekatannya sangat profesional, dan hasilnya terlihat nyata.
+            Saya sangat puas dengan layanan pengoptimalan bisnis yang diberikan. Pendekatannya sangat profesional, dan
+            hasilnya terlihat nyata.
             <img src="<?php echo get_theme_file_uri('/img/quote-sign-right.png'); ?>" class="quote-sign-right" alt="">
           </p>
         </div>
@@ -410,7 +417,9 @@
           <h4>PT. Satu Dua</h4>
           <p>
             <img src="<?php echo get_theme_file_uri('/img/quote-sign-left.png'); ?>" class="quote-sign-left" alt="">
-            Saya sangat puas dengan jasa pengoptimalan bisnis yang diberikan. Sebelum menggunakan jasa ini, toko bunga saya hanya memiliki sedikit pelanggan, dan sulit untuk bersaing dengan toko lain. Namun, setelah menggunakan layanan ini, penjualan meningkat hingga 40% dalam 3 bulan pertama.
+            Saya sangat puas dengan jasa pengoptimalan bisnis yang diberikan. Sebelum menggunakan jasa ini, toko bunga
+            saya hanya memiliki sedikit pelanggan, dan sulit untuk bersaing dengan toko lain. Namun, setelah menggunakan
+            layanan ini, penjualan meningkat hingga 40% dalam 3 bulan pertama.
             <img src="<?php echo get_theme_file_uri('/img/quote-sign-right.png'); ?>" class="quote-sign-right" alt="">
           </p>
         </div>
@@ -421,7 +430,10 @@
           <h4>PT. Satu Dua</h4>
           <p>
             <img src="<?php echo get_theme_file_uri('/img/quote-sign-left.png'); ?>" class="quote-sign-left" alt="">
-            "Layanan pengoptimalan bisnis yang luar biasa!" Kami sangat puas dengan hasil yang diberikan oleh tim ini. Sejak menggunakan jasa mereka, pendapatan bisnis kami meningkat signifikan, dan proses operasional menjadi jauh lebih efisien. Mereka tidak hanya membantu mengidentifikasi masalah, tetapi juga memberikan solusi konkret yang dapat langsung kami terapkan.
+            "Layanan pengoptimalan bisnis yang luar biasa!" Kami sangat puas dengan hasil yang diberikan oleh tim ini.
+            Sejak menggunakan jasa mereka, pendapatan bisnis kami meningkat signifikan, dan proses operasional menjadi
+            jauh lebih efisien. Mereka tidak hanya membantu mengidentifikasi masalah, tetapi juga memberikan solusi
+            konkret yang dapat langsung kami terapkan.
             <img src="<?php echo get_theme_file_uri('/img/quote-sign-right.png'); ?>" class="quote-sign-right" alt="">
           </p>
         </div>
@@ -440,7 +452,7 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-4 col-md-6 wow fadeInUp">
+        <div class="col-lg-3 col-md-6 wow fadeInUp">
           <div class="member">
             <img src="<?php echo get_theme_file_uri('/img/team-1.png'); ?>" class="img-fluid" alt="">
             <div class="member-info">
@@ -459,7 +471,7 @@
         </div>
 
         <!-- Tambahkan team members lainnya -->
-        <div class="col-lg-4 col-md-6 wow fadeInUp">
+        <div class="col-lg-3 col-md-6 wow fadeInUp">
           <div class="member">
             <img src="<?php echo get_theme_file_uri('/img/team-2.jpg'); ?>" class="img-fluid" alt="">
             <div class="member-info">
@@ -477,7 +489,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 wow fadeInUp">
+        <div class="col-lg-3 col-md-6 wow fadeInUp">
           <div class="member">
             <img src="<?php echo get_theme_file_uri('/img/team-3.png'); ?>" class="img-fluid" alt="">
             <div class="member-info">
@@ -545,8 +557,8 @@
               <div class="validation"></div>
             </div>
             <div class="form-group col-md-6">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Emailmu"
-                data-rule="email" data-msg="Please enter a valid email" />
+              <input type="email" class="form-control" name="email" id="email" placeholder="Emailmu" data-rule="email"
+                data-msg="Please enter a valid email" />
               <div class="validation"></div>
             </div>
           </div>
