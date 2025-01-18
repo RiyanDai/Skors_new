@@ -8,74 +8,69 @@
     <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
       <ol class="carousel-indicators"></ol>
       <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-          <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/1.png'); ?>"
-              alt=""></div>
-          <div class="carousel-container">
-            <div class="carousel-content">
-              <h2>PT. ARTHENESIA SOLUSI KITA</h2>
-              <p>Perusahaan inovatif yang berfokus pada kemajuan teknologi untuk mendukung pengembangan dan pengelolaan
-                bisnis secara cerdas dan efisien.</p>
-              <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/2.jpg'); ?>"
-              alt=""></div>
-          <div class="carousel-container">
-            <div class="carousel-content">
-              <h2>Kelola. Pantau. Raih Kesuksesan</h2>
-              <p>Optimalkan potensi bisnis Anda bersama kami! Dengan strategi digital yang tepat, kami siap membantu mencapai target pasar yang lebih luas.
-              Wujudkan kesuksesan bisnis Anda sekarang!</p>
-              <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/3.jpg'); ?>"
-              alt=""></div>
-          <div class="carousel-container">
-            <div class="carousel-content">
-              <h2>Temporibus autem quibusdam</h2>
-              <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-                fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus
-                error sit voluptatem accusantium.</p>
-              <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/4.jpg'); ?>"
-              alt=""></div>
-          <div class="carousel-container">
-            <div class="carousel-content">
-              <h2>Nam libero tempore</h2>
-              <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
-                non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad
-                minima veniam, quis nostrum.</p>
-              <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/5.jpg'); ?>"
-              alt=""></div>
-          <div class="carousel-container">
-            <div class="carousel-content">
-              <h2>Magnam aliquam quaerat</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.</p>
-              <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
-            </div>
-          </div>
-        </div>
+      <div class="carousel-inner" role="listbox">
+  <!-- Slide 1 - tetap sama -->
+  <div class="carousel-item active">
+    <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/1.jpg'); ?>" alt=""></div>
+    <div class="carousel-container">
+      <div class="carousel-content">
+        <h2>PT. ARTHENESIA SOLUSI KITA</h2>
+        <p>Perusahaan inovatif yang berfokus pada kemajuan teknologi untuk mendukung pengembangan dan pengelolaan
+          bisnis secara cerdas dan efisien.</p>
+        <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
       </div>
+    </div>
+  </div>
+
+  <!-- Slide 2 - tetap sama -->
+  <div class="carousel-item">
+    <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/2.jpg'); ?>" alt=""></div>
+    <div class="carousel-container">
+      <div class="carousel-content">
+        <h2>Kelola. Pantau. Raih Kesuksesan</h2>
+        <p>Optimalkan potensi bisnis Anda bersama kami! Dengan strategi digital yang tepat, kami siap membantu mencapai target pasar yang lebih luas.
+        Wujudkan kesuksesan bisnis Anda sekarang!</p>
+        <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 3 - updated -->
+  <div class="carousel-item">
+    <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/3.jpg'); ?>" alt=""></div>
+    <div class="carousel-container">
+      <div class="carousel-content">
+        <h2>Platform Manajemen Bisnis Terpadu</h2>
+        <p>Lahir pada tahun 2020, SKOR hadir sebagai platform manajemen performa bisnis berbasis web yang dirancang khusus untuk membantu korporasi dan UMKM dalam mengelola bisnis mereka secara efektif.</p>
+        <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 4 - updated -->
+  <div class="carousel-item">
+    <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/4.jpg'); ?>" alt=""></div>
+    <div class="carousel-container">
+      <div class="carousel-content">
+        <h2>Solusi Lengkap Untuk Bisnis Anda</h2>
+        <p>Dengan fitur-fitur yang mencakup pengelolaan sumber daya manusia, keuangan, dan strategi bisnis, kami hadir sebagai mitra terpercaya yang berkomitmen untuk mendukung pertumbuhan dan kesuksesan usaha Anda.</p>
+        <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 5 - updated -->
+  <div class="carousel-item">
+    <div class="carousel-background"><img src="<?php echo get_theme_file_uri('/img/intro-carousel/5.jpg'); ?>" alt=""></div>
+    <div class="carousel-container">
+      <div class="carousel-content">
+        <h2>Berkembang Bersama SKOR</h2>
+        <p>Hingga hari ini, SKOR terus berkembang dengan misi untuk memberdayakan bisnis dalam menghadapi tantangan dan mencapai potensi terbaiknya. Mari wujudkan kesuksesan bisnis Anda bersama kami!</p>
+        <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+      </div>
+    </div>
+  </div>
+</div>
 
       <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
