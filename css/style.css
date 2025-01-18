@@ -807,7 +807,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #call-to-action .cta-btn {
   display: inline-block;
-  background: #00E3A5;
+  background: #00B9CB;
   padding: 8px 30px;
   border-radius: 25px;
   color: #fff;
@@ -818,7 +818,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #00c591;
+  background: #006872;
   transform: translateY(-2px);
 }
 
@@ -1348,7 +1348,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #13a456;
+  background: #006872;
 }
 
 /*--------------------------------------------------------------
@@ -1387,6 +1387,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
+  text-align: justify;
   color: #eee;
 }
 

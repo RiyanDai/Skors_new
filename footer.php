@@ -8,7 +8,7 @@
 
           <div class="col-lg-3 col-md-6 footer-info">
             <h3>SKORS</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+            <p>Skor adalah aplikasi manajemen Human Resources (HR) yang dirancang untuk membantu perusahaan dalam mengelola kinerja karyawan secara lebih efektif dan efisien. Aplikasi ini dirancang dengan tujuan memberikan solusi praktis untuk mengukur, memantau, dan meningkatkan produktivitas serta performa individu atau tim dalam suatu organisasi.</p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">

@@ -293,24 +293,19 @@
       </header>
 
       <div class="row counters">
-        <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up">274</span>
+        <div class="col-lg-4 col-6 text-center">
+          <span data-toggle="counter-up">10</span>
           <p>Clients</p>
         </div>
 
-        <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up">421</span>
+        <div class="col-lg-4 col-6 text-center">
+          <span data-toggle="counter-up">10</span>
           <p>Projects</p>
         </div>
 
-        <div class="col-lg-3 col-6 text-center">
+        <div class="col-lg-4 col-6 text-center">
           <span data-toggle="counter-up">1,364</span>
           <p>Hours Of Support</p>
-        </div>
-
-        <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up">18</span>
-          <p>Hard Workers</p>
         </div>
       </div>
 
@@ -380,6 +375,9 @@
         <img src="<?php echo get_theme_file_uri('/img/clients/client-5.png'); ?>" alt="">
         <img src="<?php echo get_theme_file_uri('/img/clients/client-6.png'); ?>" alt="">
         <img src="<?php echo get_theme_file_uri('/img/clients/client-7.png'); ?>" alt="">
+        <img src="<?php echo get_theme_file_uri('/img/clients/client-8.png'); ?>" alt="">
+        <img src="<?php echo get_theme_file_uri('/img/clients/client-9.png'); ?>" alt="">
+        <img src="<?php echo get_theme_file_uri('/img/clients/client-10.png'); ?>" alt="">
       </div>
     </div>
   </section>
@@ -442,7 +440,7 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-3 col-md-6 wow fadeInUp">
+        <div class="col-lg-4 col-md-6 wow fadeInUp">
           <div class="member">
             <img src="<?php echo get_theme_file_uri('/img/team-1.png'); ?>" class="img-fluid" alt="">
             <div class="member-info">
@@ -461,7 +459,7 @@
         </div>
 
         <!-- Tambahkan team members lainnya -->
-        <div class="col-lg-3 col-md-6 wow fadeInUp">
+        <div class="col-lg-4 col-md-6 wow fadeInUp">
           <div class="member">
             <img src="<?php echo get_theme_file_uri('/img/team-2.jpg'); ?>" class="img-fluid" alt="">
             <div class="member-info">
@@ -479,7 +477,7 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 wow fadeInUp">
+        <div class="col-lg-4 col-md-6 wow fadeInUp">
           <div class="member">
             <img src="<?php echo get_theme_file_uri('/img/team-3.png'); ?>" class="img-fluid" alt="">
             <div class="member-info">
