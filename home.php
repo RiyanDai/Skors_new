@@ -253,7 +253,7 @@
         <div class="col-lg-6 text-left"> <!-- Ubah text-center menjadi text-left -->
           <h3>Eksplorasi Web Aplikasi Kami</h3>
           <p>Rasakan pengalaman mengelola tim bisnis dengan mudah, cepat dan aman</p>
-          <a class="cta-btn" href="#">Coba Demo</a>
+          <a class="cta-btn" href="https://app.skor.biz.id/index.php/login">Coba Demo</a>
         </div>
 
         <!-- Kolom Gambar -->
@@ -267,44 +267,67 @@
   <!--==========================
     Skills Section
   ============================-->
-  <section id="skills">
-    <div class="container">
-      <header class="section-header">
-        <h3>Our Skills</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-      </header>
+  <section id="skills" class="skills-section">
+  <div class="container" style="padding: 60px 0;">
+    <header class="section-header wow fadeInUp">
+      <h3>Berita Terkini</h3>
+      <p>Berita dan informasi terbaru seputar kegiatan kami</p>
+    </header>
 
-      <div class="skills-content">
-        <div class="progress">
-          <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-            aria-valuemax="100">
-            <span class="skill">HTML <i class="val">100%</i></span>
+    <div class="row g-4">
+      <?php
+      // Query untuk mengambil artikel
+      $args = array(
+        'post_type' => 'post',
+        'posts_per_page' => 3, // Sesuaikan jumlah artikel yang ingin ditampilkan
+        'orderby' => 'date',
+        'order' => 'DESC'
+      );
+
+      $query = new WP_Query($args);
+
+      if ($query->have_posts()) :
+        while ($query->have_posts()) : $query->the_post();
+      ?>
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card h-100" style="border-radius: 15px; background: #fff; color: #333;">
+            <a href="<?php the_permalink(); ?>">
+              <?php if (has_post_thumbnail()) : ?>
+                <img src="<?php echo get_the_post_thumbnail_url(null, 'large'); ?>" 
+                     class="card-img-top" 
+                     alt="<?php the_title(); ?>"
+                     style="border-radius: 15px 15px 0 0;">
+              <?php endif; ?>
+            </a>
+            
+            <div class="card-body d-flex flex-column">
+              <p class="text-muted mb-2"><?php echo get_the_date('d F Y'); ?></p>
+              <h4 class="card-title" style="font-weight: bold; font-size: clamp(1.2rem, 2.5vw, 1.5rem);">
+                <a href="<?php the_permalink(); ?>" class="text-dark text-decoration-none">
+                  <?php the_title(); ?>
+                </a>
+              </h4>
+              <p class="card-text flex-grow-1">
+                <?php echo wp_trim_words(get_the_excerpt(), 20); ?>
+              </p>
+              <a href="<?php the_permalink(); ?>" class="btn btn-link text-dark mt-auto" style="padding-left: 0;">
+                Baca artikel →
+              </a>
+            </div>
           </div>
         </div>
-
-        <div class="progress">
-          <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-            <span class="skill">CSS <i class="val">90%</i></span>
-          </div>
+      <?php 
+        endwhile;
+        wp_reset_postdata();
+      else : 
+      ?>
+        <div class="col-12">
+          <p>Tidak ada artikel yang tersedia.</p>
         </div>
-
-        <div class="progress">
-          <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-            aria-valuemax="100">
-            <span class="skill">JavaScript <i class="val">75%</i></span>
-          </div>
-        </div>
-
-        <div class="progress">
-          <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="55" aria-valuemin="0"
-            aria-valuemax="100">
-            <span class="skill">Photoshop <i class="val">55%</i></span>
-          </div>
-        </div>
-      </div>
+      <?php endif; ?>
     </div>
-  </section>
+  </div>
+</section>
 
   <!--==========================
     Facts Section
@@ -452,7 +475,7 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-3 col-md-6 wow fadeInUp">
+        <div class="col-lg-4 col-md-6 wow fadeInUp">
           <div class="member">
             <img src="<?php echo get_theme_file_uri('/img/team-1.png'); ?>" class="img-fluid" alt="">
             <div class="member-info">
@@ -471,7 +494,7 @@
         </div>
 
         <!-- Tambahkan team members lainnya -->
-        <div class="col-lg-3 col-md-6 wow fadeInUp">
+        <div class="col-lg-4 col-md-6 wow fadeInUp">
           <div class="member">
             <img src="<?php echo get_theme_file_uri('/img/team-2.jpg'); ?>" class="img-fluid" alt="">
             <div class="member-info">
@@ -489,7 +512,7 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 wow fadeInUp">
+        <div class="col-lg-4 col-md-6 wow fadeInUp">
           <div class="member">
             <img src="<?php echo get_theme_file_uri('/img/team-3.png'); ?>" class="img-fluid" alt="">
             <div class="member-info">
