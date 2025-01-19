@@ -335,25 +335,25 @@
   <section id="facts" class="wow fadeIn">
     <div class="container">
       <header class="section-header">
-        <h3>Facts</h3>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        <h3>Fakta tentang Kami</h3>
+        <p>Kami telah menempuh perjalanan panjang dalam industri ini, membangun kepercayaan dan memberikan layanan terbaik bagi para mitra dan pelanggan.</p>
       </header>
 
       <div class="container">
         <div class="row counters justify-content-center"> <!-- Tambahkan justify-content-center -->
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">10</span>
-            <p>Clients</p>
+            <p>Klien Kami</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">1,364</span>
-            <p>Hours Of Support</p>
+            <p>Jam Pelayanan</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">18</span>
-            <p>Hard Workers</p>
+            <span data-toggle="counter-up">10</span>
+            <p>Ulasan positif</p>
           </div>
         </div>
       </div>
@@ -379,9 +379,9 @@
 
               <p>
 
-                Priestian Octafian 
+                Priestian Octafian, 
 
-                CEO, PT. Arthenesia Solusi Kita
+                CEO PT. Arthenesia Solusi Kita
               </p>
             </div>
           </div>
@@ -407,6 +407,9 @@
         <img src="<?php echo get_theme_file_uri('/img/clients/client-5.png'); ?>" alt="">
         <img src="<?php echo get_theme_file_uri('/img/clients/client-6.png'); ?>" alt="">
         <img src="<?php echo get_theme_file_uri('/img/clients/client-7.png'); ?>" alt="">
+        <img src="<?php echo get_theme_file_uri('/img/clients/client-8.png'); ?>" alt="">
+        <img src="<?php echo get_theme_file_uri('/img/clients/client-9.png'); ?>" alt="">
+        <img src="<?php echo get_theme_file_uri('/img/clients/client-10.png'); ?>" alt="">
       </div>
     </div>
   </section>
@@ -422,9 +425,9 @@
 
       <div class="owl-carousel testimonials-carousel">
         <div class="testimonial-item">
-          <img src="<?php echo get_theme_file_uri('/img/testimonial-1.jpg'); ?>" class="testimonial-img" alt="">
-          <h3>Teresa Diora</h3>
-          <h4>PT. Satu Dua</h4>
+          <img src="<?php echo get_theme_file_uri('/img/testimonial-1.png'); ?>" class="testimonial-img" alt="">
+          <h3>Dapur OPI</h3>
+          <h4></h4>
           <p>
             <img src="<?php echo get_theme_file_uri('/img/quote-sign-left.png'); ?>" class="quote-sign-left" alt="">
             Saya sangat puas dengan layanan pengoptimalan bisnis yang diberikan. Pendekatannya sangat profesional, dan
@@ -435,9 +438,9 @@
 
         <!-- Tambahkan testimonial items lainnya -->
         <div class="testimonial-item">
-          <img src="<?php echo get_theme_file_uri('/img/testimonial-2.jpg'); ?>" class="testimonial-img" alt="">
-          <h3>Putrianne</h3>
-          <h4>PT. Satu Dua</h4>
+          <img src="<?php echo get_theme_file_uri('/img/testimonial-2.png'); ?>" class="testimonial-img" alt="">
+          <h3>Harvey Food</h3>
+          <h4></h4>
           <p>
             <img src="<?php echo get_theme_file_uri('/img/quote-sign-left.png'); ?>" class="quote-sign-left" alt="">
             Saya sangat puas dengan jasa pengoptimalan bisnis yang diberikan. Sebelum menggunakan jasa ini, toko bunga
@@ -448,9 +451,9 @@
         </div>
 
         <div class="testimonial-item">
-          <img src="<?php echo get_theme_file_uri('/img/testimonial-3.jpg'); ?>" class="testimonial-img" alt="">
-          <h3>Rasya Diandra</h3>
-          <h4>PT. Satu Dua</h4>
+          <img src="<?php echo get_theme_file_uri('/img/testimonial-3.png'); ?>" class="testimonial-img" alt="">
+          <h3>Dapur Rizkika</h3>
+          <h4></h4>
           <p>
             <img src="<?php echo get_theme_file_uri('/img/quote-sign-left.png'); ?>" class="quote-sign-left" alt="">
             "Layanan pengoptimalan bisnis yang luar biasa!" Kami sangat puas dengan hasil yang diberikan oleh tim ini.
@@ -564,7 +567,7 @@
           <div class="contact-email">
             <i class="ion-ios-email-outline"></i>
             <h3>Email</h3>
-            <p><a href="mailto:daifullahriyan@gmail.com">fafan@skor.biz.id</a></p>
+            <p><a href="mailto:fafan@skor.biz.id">fafan@skor.biz.id</a></p>
           </div>
         </div>
       </div>
