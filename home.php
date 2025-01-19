@@ -552,7 +552,7 @@
           <div class="contact-address">
             <i class="ion-ios-location-outline"></i>
             <h3>Kunjungi Kami</h3>
-            <address>Jalan kuburan lama, Depok, Jawa Barat</address>
+            <address>Bangka Raya No 42 A Pela Mampang, Jakarta Selatan</address>
           </div>
         </div>
 
@@ -560,7 +560,7 @@
           <div class="contact-phone">
             <i class="ion-ios-telephone-outline"></i>
             <h3>Kontak Kami</h3>
-            <p><a href="https://api.whatsapp.com/send?phone=6282291158733">08123456789</a></p>
+            <p><a href="https://api.whatsapp.com/send?phone=6282291158733">082291158733</a></p>
           </div>
         </div>
 
