@@ -389,7 +389,7 @@ background-size: cover;
 
 .nav-menu li:hover > a,
 .nav-menu > .menu-active > a {
-  color: #00B9CB;
+  color: #445c5e;
 }
 
 .nav-menu > li {
@@ -597,6 +597,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Featured Services Section
 --------------------------------*/
+
+.wow{
+  margin-bottom: 20px;
+
+}
 
 #featured-services {
   background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), 
@@ -901,11 +906,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Portfolio Section
 --------------------------------*/
-#portfolio {
+/* #portfolio {
   background:  white;
   background-size: cover;
   padding: 60px 0;
-}
+} */
 
 #portfolio .portfolio-wrap {
   /* Semi-transparent background for text contrast */
@@ -962,6 +967,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #clients {
   padding: 60px 0;
+  
 }
 
 #clients img {
@@ -1267,7 +1273,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top {
-  background: #111;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
+    background-size: auto, auto;
   padding: 60px 0 30px 0;
 }
 
