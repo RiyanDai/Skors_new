@@ -28,9 +28,9 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              Jalan kuburan lama<br>
-              Depok, Jawa Barat<br>
-              <strong>Nomer Handphone:</strong> 08123456789<br>
+              Bangka Raya No 42 A Pela Mampang<br>
+              Jakarta Selatan<br>
+              <strong>Nomer Handphone:</strong> 082291158733<br>
               <strong>Email:</strong> fafan@skor.biz.id<br>
             </p>
 
