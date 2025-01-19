@@ -564,38 +564,34 @@
           <div class="contact-email">
             <i class="ion-ios-email-outline"></i>
             <h3>Email</h3>
-            <p><a href="mailto:info@example.com">info@example.com</a></p>
+            <p><a href="mailto:daifullahriyan@gmail.com">fafan@skor.biz.id</a></p>
           </div>
         </div>
       </div>
 
       <div class="form">
-        <div id="sendmessage">Your message has been sent. Thank you!</div>
-        <div id="errormessage"></div>
-        <form action="" method="post" role="form" class="contactForm">
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Namamu" data-rule="minlen:4"
-                data-msg="Please enter at least 4 chars" />
-              <div class="validation"></div>
+        <div id="sendmessage" class="alert alert-success" style="display:none;">Your message has been sent. Thank you!</div>
+        <div id="errormessage" class="alert alert-danger" style="display:none;"></div>
+        
+        <form id="contactForm" class="contactForm">
+            <?php wp_nonce_field('contact_form_submit', 'contact_nonce'); ?>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required />
+                </div>
             </div>
-            <div class="form-group col-md-6">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Emailmu" data-rule="email"
-                data-msg="Please enter a valid email" />
-              <div class="validation"></div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required />
             </div>
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subjek"
-              data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-            <div class="validation"></div>
-          </div>
-          <div class="form-group">
-            <textarea class="form-control" name="message" rows="5" data-rule="required"
-              data-msg="Please write something for us" placeholder="Pesan"></textarea>
-            <div class="validation"></div>
-          </div>
-          <div class="text-center"><button type="submit">Berlanggan</button></div>
+            <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn-submit">Send Message</button>
+            </div>
         </form>
       </div>
     </div>

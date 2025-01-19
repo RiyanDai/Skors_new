@@ -1,5 +1,3 @@
-
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1658,4 +1656,44 @@ body.mobile-nav-active #mobile-nav-toggle {
   #header #logo img {
     max-height: 30px;
   }
+}
+
+.btn-submit {
+    background: #00B9CB;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background: #13a456;
+}
+
+#sendmessage.show,
+#errormessage.show {
+    display: block;
+}
+
+.success-message {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.success-message i {
+    color: #00B9CB;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.success-message h4 {
+    color: #00B9CB;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.success-message p {
+    color: #666;
+    font-size: 16px;
 }
