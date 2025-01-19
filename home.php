@@ -330,7 +330,7 @@
 
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">18</span>
-            <p>Hard Workers</p>
+            <p>Projects</p>
           </div>
         </div>
       </div>
@@ -399,9 +399,9 @@
 
       <div class="owl-carousel testimonials-carousel">
         <div class="testimonial-item">
-          <img src="<?php echo get_theme_file_uri('/img/testimonial-1.jpg'); ?>" class="testimonial-img" alt="">
-          <h3>Teresa Diora</h3>
-          <h4>PT. Satu Dua</h4>
+          <img src="<?php echo get_theme_file_uri('/img/testimonial-1.png'); ?>" class="testimonial-img" alt="">
+          <h3>Dapur OPI</h3>
+          <h4></h4>
           <p>
             <img src="<?php echo get_theme_file_uri('/img/quote-sign-left.png'); ?>" class="quote-sign-left" alt="">
             Saya sangat puas dengan layanan pengoptimalan bisnis yang diberikan. Pendekatannya sangat profesional, dan
@@ -412,9 +412,9 @@
 
         <!-- Tambahkan testimonial items lainnya -->
         <div class="testimonial-item">
-          <img src="<?php echo get_theme_file_uri('/img/testimonial-2.jpg'); ?>" class="testimonial-img" alt="">
-          <h3>Putrianne</h3>
-          <h4>PT. Satu Dua</h4>
+          <img src="<?php echo get_theme_file_uri('/img/testimonial-2.png'); ?>" class="testimonial-img" alt="">
+          <h3>Harney Food</h3>
+          <h4></h4>
           <p>
             <img src="<?php echo get_theme_file_uri('/img/quote-sign-left.png'); ?>" class="quote-sign-left" alt="">
             Saya sangat puas dengan jasa pengoptimalan bisnis yang diberikan. Sebelum menggunakan jasa ini, toko bunga
@@ -425,9 +425,9 @@
         </div>
 
         <div class="testimonial-item">
-          <img src="<?php echo get_theme_file_uri('/img/testimonial-3.jpg'); ?>" class="testimonial-img" alt="">
-          <h3>Rasya Diandra</h3>
-          <h4>PT. Satu Dua</h4>
+          <img src="<?php echo get_theme_file_uri('/img/testimonial-3.png'); ?>" class="testimonial-img" alt="">
+          <h3>Dapur Rizkika</h3>
+          <h4></h4>
           <p>
             <img src="<?php echo get_theme_file_uri('/img/quote-sign-left.png'); ?>" class="quote-sign-left" alt="">
             "Layanan pengoptimalan bisnis yang luar biasa!" Kami sangat puas dengan hasil yang diberikan oleh tim ini.
@@ -452,7 +452,7 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-3 col-md-6 wow fadeInUp">
+        <div class="col-lg-4 col-md-6 wow fadeInUp">
           <div class="member">
             <img src="<?php echo get_theme_file_uri('/img/team-1.png'); ?>" class="img-fluid" alt="">
             <div class="member-info">
@@ -471,7 +471,7 @@
         </div>
 
         <!-- Tambahkan team members lainnya -->
-        <div class="col-lg-3 col-md-6 wow fadeInUp">
+        <div class="col-lg-4 col-md-6 wow fadeInUp">
           <div class="member">
             <img src="<?php echo get_theme_file_uri('/img/team-2.jpg'); ?>" class="img-fluid" alt="">
             <div class="member-info">
@@ -489,7 +489,7 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 wow fadeInUp">
+        <div class="col-lg-4 col-md-6 wow fadeInUp">
           <div class="member">
             <img src="<?php echo get_theme_file_uri('/img/team-3.png'); ?>" class="img-fluid" alt="">
             <div class="member-info">
