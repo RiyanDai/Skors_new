@@ -362,12 +362,10 @@
         <img src="<?php echo get_theme_file_uri('/img/demo.png'); ?>" alt="" class="img-fluid">
       </div>
     </div>
-  </section>
-
-  <!--==========================
+    <!--==========================
     Portfolio Section
   ============================-->
-  <section id="portfolio" class="section-bg">
+  <section id="portfolio" >
     <div class="container"> <!-- Tambahkan container -->
       <div class="row portfolio-container justify-content-center">
         <div class="col-lg-12 portfolio-item wow fadeInUp text-center"> <!-- Ubah col-lg-8 menjadi col-lg-12 -->
@@ -389,6 +387,9 @@
       </div>
     </div>
   </section>
+  </section>
+
+  
 
   <!--==========================
     Clients Section
