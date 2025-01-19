@@ -24,8 +24,12 @@ function bizpage_theme_styles() {
     wp_enqueue_script('isotope', get_theme_file_uri('/lib/isotope/isotope.pkgd.min.js'), array('jquery'), '', true);
     wp_enqueue_script('lightbox', get_theme_file_uri('/lib/lightbox/js/lightbox.min.js'), array('jquery'), '', true);
     wp_enqueue_script('touchSwipe', get_theme_file_uri('/lib/touchSwipe/jquery.touchSwipe.min.js'), array('jquery'), '', true);
-    wp_enqueue_script('contactform', get_theme_file_uri('/contactform/contactform.js'), array('jquery'), '', true);
     wp_enqueue_script('main', get_theme_file_uri('/js/main.js'), array('jquery'), '', true);
+    wp_enqueue_script('contact-form', get_theme_file_uri('/js/contact-form.js'), array('jquery'), '1.0', true);
+    wp_localize_script('contact-form', 'contactForm', array(
+        'ajaxurl' => admin_url('admin-ajax.php'),
+        'nonce' => wp_create_nonce('contact_form_submit')
+    ));
 }
 add_action('wp_enqueue_scripts', 'bizpage_theme_styles');
 
@@ -86,3 +90,12 @@ function bizpage_widgets_init() {
     ));
 }
 add_action('widgets_init', 'bizpage_widgets_init');
+
+add_action('wp_ajax_contact_form_submit', 'handle_contact_form');
+add_action('wp_ajax_nopriv_contact_form_submit', 'handle_contact_form');
+
+function handle_contact_form() {
+    check_ajax_referer('contact_form_submit', 'nonce');
+    require_once get_template_directory() . '/inc/process-contact.php';
+    exit;
+}
